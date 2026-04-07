@@ -1,0 +1,486 @@
+@media (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+
+  .hero__container {
+    grid-template-columns: 1.2fr 0.8fr;
+  }
+}
+
+@media (max-width: 1100px) {
+  .hero__content {
+    margin-top: 30px;
+  }
+
+  .placement-highlights-wrapper {
+    gap: 20px;
+  }
+
+  .placement-highlight-title {
+    max-width: 700px;
+  }
+
+  .placement-highlight-content {
+    flex-direction: column;
+    max-width: 700px;
+    gap: 10px;
+  }
+
+  .placement-highlight-strip,
+  .placement-highlight-strip1 {
+    max-width: 645px;
+  }
+
+  .placement-highlight-strip {
+    gap: 25px;
+  }
+
+  .placement-highlight-strip1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .placement-highlight-metric {
+    padding: 25px;
+    margin: 0 auto;
+  }
+
+  .placement-highlight-carousel-col {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .brand-logo {
+    max-width: 175px;
+  }
+
+  .brand-strip {
+    max-width: 350px;
+  }
+
+  .hero__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .hero__title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .placement-highlights-section {
+    padding: 50px 20px 25px 20px;
+  }
+
+  .hero__description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .admission-tag1 {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .admission-tag {
+    display: none;
+  }
+
+  .why--study {
+    margin-top: 0px;
+    padding: 75px 15px 50px 15px !important;
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  .sup--heading sup {
+    display: flex;
+    width: fit-content;
+    min-height: 40px;
+    align-items: center;
+    top: 5px;
+  }
+
+  .grid {
+    gap: 10px 20px;
+  }
+
+  .grid-slide,
+  .grid-slide1 {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .ct-video iframe {
+    width: 400px;
+  }
+
+  .approval-card {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer--ct {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-strip {
+    max-width: 300px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .placement-highlight-metric h3 {
+    font-size: 28px;
+  }
+
+  .metric-title {
+    font-size: 12px;
+  }
+
+  .form--container {
+    padding: 30px;
+  }
+
+  .sup--heading {
+    text-align: center;
+  }
+
+  .sup--heading sup {
+    margin: 0 auto;
+    min-height: auto;
+    padding-top: 12px;
+    padding-bottom: 15px;
+  }
+
+  .custom--btn {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .approval-title {
+    font-size: 28px;
+  }
+
+  .approval-subtitle {
+    font-size: 14px;
+  }
+
+  .approval-card {
+    padding: 15px;
+  }
+
+  .approval-grid {
+    gap: 10px;
+  }
+
+  .approval-card h4 {
+    font-size: 12px;
+  }
+
+  .approval-card img {
+    max-height: 85px;
+  }
+
+  .why--study .why--heading {
+    max-width: 60%;
+    padding-top: 100px;
+  }
+
+  .why--study .why--content {
+    width: 80%;
+  }
+
+  .industry-track-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .industry-track-row1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .industry-track-pill,
+  .industry-track-pill1 {
+    width: 100%;
+    max-width: 225px;
+    padding: 12px 7.5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    border-radius: 0px 12px 0px 12px;
+  }
+
+  .industry-slider-wrapper,
+  .industry-slider-wrapper1 {
+    width: 100vw;
+    margin-left: -25px;
+    padding: 10px 0;
+  }
+
+  .heading--row .heading--left {
+    background: none;
+    padding-right: 0px;
+  }
+
+  .heading--row .content--right {
+    padding-left: 0;
+  }
+
+  .heading--row {
+    padding-bottom: 20px;
+  }
+
+  .tabs button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .tab-content h3 {
+    font-size: 18px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .program-filters {
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 15px;
+    margin: 0 -15px 5px -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    scrollbar-width: none;
+  }
+
+  .program-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-btn {
+    flex: 0 0 auto;
+  }
+
+  .ct-video iframe {
+    width: 100%;
+    max-width: 450px;
+    margin: 10px auto;
+  }
+
+  .content-box {
+    padding: 20px;
+  }
+
+  .program-group ul li {
+    font-size: 12px;
+  }
+
+  .industry--associations {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 550px;
+  }
+
+  .logo--industry .swiper-slide {
+    min-height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo--industry .swiper-slide img {
+    width: 145px;
+    margin: 0 auto;
+  }
+
+  .footer--ct {
+    padding: 15px;
+    text-align: center;
+    min-height: auto;
+  }
+
+  .footer--copy p {
+    font-size: 10px;
+  }
+
+  .cta-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer--ct {
+    margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 580px) {
+  .placement-highlights-wrapper {
+    gap: 0px;
+  }
+
+  .placement-highlight-metric {
+    padding: 20px 5px;
+  }
+
+  .placement-highlight-title {
+    margin-bottom: 20px;
+  }
+
+  .placement-highlight-metric h3 {
+    font-size: 26px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+
+  .brand-logo {
+    max-width: 150px;
+  }
+
+  .brand-strip {
+    max-width: 250px;
+  }
+
+  .header-brand {
+    gap: 10px;
+  }
+
+  .header-apply-btn {
+    margin-top: 10px;
+  }
+
+  .placement-highlight-strip,
+  .placement-highlight-strip1 {
+    gap: 10px;
+  }
+
+  .placement-highlight-carousel-col {
+    max-width: 325px;
+    margin: 0 auto;
+  }
+
+  .placement-highlight-name {
+    font-size: 16px;
+  }
+
+  .placement-highlight-role {
+    font-size: 14px;
+    color: #0a43ad;
+    margin-bottom: 12px;
+  }
+
+  .approval-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .approval-card {
+    min-height: 180px;
+    padding: 15px 10px;
+  }
+
+  .hero__description {
+    font-size: 16px;
+  }
+
+  .ta-subtitle {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .why--study {
+    padding: 15px !important;
+  }
+
+  .why--study .why--heading>h2 .why--icon:before {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .why--study .why--heading {
+    padding-top: 85px;
+    text-align: left;
+  }
+
+  .placement-highlights-section,
+  .approval-section {
+    padding: 25px;
+    padding-top: 50px;
+  }
+
+  .industry-section,
+  .course-section {
+    padding: 25px;
+    padding-bottom: 50px;
+  }
+
+  .course-section p,
+  .industry-container p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .industry-logo {
+    max-height: 75px;
+  }
+
+  .grid-slide {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 125px 125px;
+    gap: 5px;
+  }
+
+  .grid-slide1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 125px 150px 125px;
+    gap: 5px;
+  }
+
+  .grid-slide img,
+  .grid-slide1 img {
+    border-radius: 10px;
+  }
+
+  .grid {
+    gap: 0px;
+  }
+
+  .grid-slide .big,
+  .grid-slide1 .big {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .infra-collage {
+    padding: 10px 20px;
+  }
+
+  .cta-action {
+    margin: 5px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-strip {
+    max-width: 200px;
+  }
+}
