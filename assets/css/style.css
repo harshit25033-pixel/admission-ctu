@@ -1112,7 +1112,8 @@ h6 span {
 }
 
 .infra-collage {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   padding: 20px;
 }
