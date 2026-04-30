@@ -473,7 +473,7 @@
   .grid-slide .big,
   .grid-slide1 .big {
     grid-column: span 2;
-    grid-row: auto;
+    grid-row: span 1;
   }
 
   .infra-collage {
