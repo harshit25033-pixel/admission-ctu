@@ -45,6 +45,16 @@
     margin: 0 auto;
   }
 
+  .center {
+    grid-column: 1 / -1;
+    /* take full row */
+    justify-self: center;
+    /* center the element */
+    max-width: 250px;
+    /* optional: control width */
+    width: 100%;
+  }
+
   .placement-highlight-carousel-col {
     margin-top: 10px;
   }
@@ -165,10 +175,6 @@
   .custom--btn {
     padding: 10px;
     font-size: 13px;
-  }
-
-  .approval-title {
-    font-size: 28px;
   }
 
   .approval-subtitle {
